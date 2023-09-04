@@ -55,3 +55,7 @@ def mult(pos, *args, **kwargs):
          print(kw, kwargs[kw])
 
 mult(1, 2, 3, 4, 5, 6, 7, 8, 9, a = "meh", b = "huh")
+def make(a, b):
+    func = a + b + b + a
+    return func
+print(make("hello", "hi"))
